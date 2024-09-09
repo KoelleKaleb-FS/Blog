@@ -1,0 +1,86 @@
+/* globals.css */
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Container for centering content */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+  color: #0070f3;
+  margin-bottom: 20px;
+}
+
+/* Post List */
+.post-list {
+  list-style-type: none;
+}
+
+.post-list li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-list li:last-child {
+  border-bottom: none;
+}
+
+/* Button styles */
+button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Back link */
+.back-link {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Post Page */
+.post-content {
+  margin-top: 20px;
+}
+
+.post-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.post-content p {
+  margin: 10px 0;
+}
